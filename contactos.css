@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+html{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    background-image: url(imagenes/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 12.5rem;
+}
+header .nav {
+/*     display: flex;*/
+    justify-content: space-around;
+    background-color: rgb(174,194,223);
+    padding: 1rem;
+}
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    gap: 2%;
+    margin: 1.25rem;
+}
+footer {
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}

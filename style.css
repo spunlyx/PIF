@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(128, 128, 128);
+}
+img{
+    width: 100%;    
+}
+header {
+    width: 100%;
+    background-image: url(imagenes/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 12.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(174, 194, 223);
+    padding: 1rem;
+}
+main{
+    background-color: darkolivegreen;
+    min-height: 60vh;
+}
+/**/
+/**/
+footer {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+  flex-wrap: wrap; 
+}
